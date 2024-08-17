@@ -20,7 +20,7 @@ export const Hero = (
             Download
           </a>
           <a
-            href="#"
+            href="https://github.com/charlesinwald/rustinx-react/"
             className="text-md underline underline-offset-4 font-semibold leading-6 text-[#ebdbb2]"
           >
             Source Code
