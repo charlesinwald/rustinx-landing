@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between md:p-6 sm:p-12 lg:p-24 bg-[#282828] w-full">
       {Header}
 
-      {Hero}
+      <Hero />
 
       {Features()}
     </main>
