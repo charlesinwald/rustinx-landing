@@ -27,7 +27,7 @@ const features = [
 ];
 
 export const Features = () => (
-  <div className="mb-16 max-sm:mb-64 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
+  <div className="mb-8 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
     {features.map((feature) => {
       const isLast = feature === features[features.length - 1];
       return (

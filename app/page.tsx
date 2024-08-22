@@ -10,6 +10,19 @@ export default function Home() {
       <Hero />
 
       {Features()}
+
+      <div className="w-full min-md:w-50 aspect-w-16 aspect-h-9">
+        <iframe
+          src="https://www.youtube.com/embed/1-iOp5BPs3I?si=WFkAKlXZuO5t3o_M"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+          style={{ padding: "10%" }}
+          className="w-full h-full"
+        ></iframe>
+      </div>
     </main>
   );
 }
