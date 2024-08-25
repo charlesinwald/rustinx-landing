@@ -40,7 +40,7 @@ export const Hero = () => {
               className="rounded-md bg-[#ebdbb2] px-3 py-2 sm:px-3.5 sm:py-2.5 text-md font-semibold text-[#282828] shadow-sm hover:bg-[#d5c4a1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#ebdbb2]"
               target="_blank"
             >
-              Download for Linux
+              Download for Mac or Linux
             </a>
             <a
               href="https://github.com/charlesinwald/rustinx-react/"
