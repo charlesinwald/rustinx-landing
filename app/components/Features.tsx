@@ -27,13 +27,13 @@ const features = [
 ];
 
 export const Features = () => (
-  <div className="mb-8 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
+  <div className="mb-8 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4">
     {features.map((feature) => {
       const isLast = feature === features[features.length - 1];
       return (
         <div
           key={feature.title}
-          className={`${isLast && "mb-16"} group rounded-lg border border-transparent px-4 sm:px-5 py-4 transition-colors md:hover:scale-150 hover:bg-[#504945]`}
+          className={`${isLast && "mb-16"} group rounded-lg border border-transparent px-4 sm:px-5 py-4 transition-colors md:hover:scale-150 hover:bg-[#504945] flex flex-col items-center justify-center h-full min-h-[200px]`}
         >
           <h2
             className="mb-2 sm:mb-3 text-xl sm:text-2xl font-semibold"
@@ -41,7 +41,7 @@ export const Features = () => (
           >
             {feature.title}
           </h2>
-          <p className="m-0 max-w-[30ch] text-sm text-[#ebdbb2]">
+          <p className="m-0 max-w-[30ch] text-sm text-[#ebdbb2] text-center">
             {feature.description}
           </p>
         </div>

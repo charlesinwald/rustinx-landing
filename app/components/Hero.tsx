@@ -34,30 +34,38 @@ export const Hero = () => {
           <p className="mt-4 sm:mt-6 text-base sm:text-lg leading-7 sm:leading-8 text-[#a89984]">
             No more fiddling with the command line
           </p>
-          <div className="mt-6 sm:mt-10 flex items-center justify-center gap-x-4 sm:gap-x-6 lg:justify-start">
-            <a
-              href="https://github.com/charlesinwald/rustinx-react/releases"
-              className="rounded-md bg-[#ebdbb2] px-3 py-2 sm:px-3.5 sm:py-2.5 text-md font-semibold text-[#282828] shadow-sm hover:bg-[#d5c4a1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#ebdbb2]"
-              target="_blank"
-            >
-              Download for Mac or Linux
-            </a>
-            <a
-              href="https://github.com/charlesinwald/rustinx-react/"
-              className="text-md underline underline-offset-4 font-semibold leading-6 text-[#ebdbb2]"
-            >
-              Source Code
-            </a>
+          <div className="mt-6 sm:mt-10 flex flex-col items-center gap-3 sm:gap-4 lg:items-start">
+            <div className="flex items-center gap-2">
+              <span className="inline-flex items-center rounded-full bg-[#b8bb26]/10 px-2.5 py-0.5 text-xs font-medium text-[#b8bb26] ring-1 ring-inset ring-[#b8bb26]/20">
+                Free & Open Source
+              </span>
+            </div>
+            <div className="flex items-center justify-center gap-x-4 sm:gap-x-6 lg:justify-start">
+              <a
+                href="https://github.com/charlesinwald/rustinx-react/releases"
+                className="rounded-md bg-[#ebdbb2] px-3 py-2 sm:px-3.5 sm:py-2.5 text-md font-semibold text-[#282828] shadow-sm hover:bg-[#d5c4a1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#ebdbb2]"
+                target="_blank"
+              >
+                Download for Mac or Linux
+              </a>
+              <a
+                href="https://github.com/charlesinwald/rustinx-react/"
+                className="text-md underline underline-offset-4 font-semibold leading-6 text-[#ebdbb2]"
+              >
+                Source Code
+              </a>
+            </div>
           </div>
         </div>
         <div className="relative mt-8 lg:mt-0 lg:ml-8 lg:flex-auto w-full max-w-sm sm:max-w-md lg:max-w-none lg:w-1/2">
           <Image
             className="rounded-md bg-[#282828]/5 ring-1 ring-[#3c3836]/10"
             src={images[currentImageIndex]} // Dynamically set the image source
-            alt="App screenshot"
-            layout="responsive"
+            alt="Rustinx application interface showing Nginx server monitoring dashboard"
             width="1824"
             height="1080"
+            priority
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
       </div>
