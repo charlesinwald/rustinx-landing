@@ -1,7 +1,7 @@
 export const Header = (
-  <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
+  <div className="z-10 w-full max-w-5xl items-center justify-between font-mono lg:flex">
     <div className="fixed left-0 top-0 flex w-full justify-center border-b border-[#504945] bg-gradient-to-b from-[#3c3836] pb-6 pt-12 sm:pt-16 backdrop-blur-2xl lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-[#3c3836] lg:p-4">
-      <p className="text-2xl sm:text-3xl font-bold tracking-tight text-[#ebdbb2]">
+      <p className="text-3xl sm:text-4xl font-bold tracking-tight text-[#fbf1c7]">
         Rustinx
       </p>
     </div>
@@ -9,18 +9,18 @@ export const Header = (
       <div className="flex items-center gap-6 lg:gap-8">
         <a
           href="#features"
-          className="text-sm font-medium text-[#ebdbb2] hover:text-[#fabd2f] transition-colors"
+          className="text-base font-semibold text-[#fbf1c7] hover:text-[#fabd2f] transition-colors"
         >
           Features
         </a>
         <a
           href="#demo"
-          className="text-sm font-medium text-[#ebdbb2] hover:text-[#fabd2f] transition-colors"
+          className="text-base font-semibold text-[#fbf1c7] hover:text-[#fabd2f] transition-colors"
         >
           Demo
         </a>
         <a
-          className="flex place-items-center gap-2 p-4 sm:p-8 lg:p-0 text-[#ebdbb2] hover:text-[#fabd2f] transition-colors"
+          className="flex place-items-center gap-2 p-4 sm:p-8 lg:p-0 text-base font-medium text-[#d5c4a1] hover:text-[#fabd2f] transition-colors"
           href="https://charlesinwald.com"
           target="_blank"
           rel="noopener noreferrer"

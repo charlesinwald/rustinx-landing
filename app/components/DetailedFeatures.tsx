@@ -95,7 +95,7 @@ const detailedFeatures = [
     icon: "search",
     color: "#83a598",
     features: [
-      "Journalctl integration for Nginx, Apache, MySQL, PostgreSQL, Redis, Docker",
+      "Journalctl integration",
       "Date range filtering and line count customization",
       "Log level detection with statistics",
       "Export and search capabilities",
@@ -106,10 +106,10 @@ const detailedFeatures = [
 export const DetailedFeatures = () => (
   <div className="w-full max-w-7xl mx-auto px-4 py-16">
     <div className="text-center mb-12">
-      <h2 className="text-3xl sm:text-4xl font-bold text-[#ebdbb2] mb-4">
+      <h2 className="text-4xl sm:text-5xl font-bold text-[#fbf1c7] mb-6 leading-tight">
         Everything you need to manage Nginx
       </h2>
-      <p className="text-lg text-[#a89984] max-w-2xl mx-auto">
+      <p className="text-xl text-[#d5c4a1] max-w-2xl mx-auto leading-relaxed">
         A comprehensive suite of tools designed to simplify Nginx server management
       </p>
     </div>
@@ -125,20 +125,20 @@ export const DetailedFeatures = () => (
               <DetailedIconComponent type={section.icon} color={section.color} />
             </div>
             <h3
-              className="text-xl font-semibold leading-tight"
+              className="text-xl sm:text-2xl font-bold leading-tight"
               style={{ color: section.color }}
             >
               {section.title}
             </h3>
           </div>
-          <ul className="space-y-2">
+          <ul className="space-y-3">
             {section.features.map((feature, index) => (
               <li
                 key={index}
-                className="flex items-start text-[#a89984] text-sm"
+                className="flex items-start text-[#d5c4a1] text-base leading-relaxed"
               >
                 <span
-                  className="mr-2 mt-1 flex-shrink-0"
+                  className="mr-3 mt-0.5 flex-shrink-0 font-bold text-lg"
                   style={{ color: section.color }}
                 >
                   ✓

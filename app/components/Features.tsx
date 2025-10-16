@@ -83,12 +83,12 @@ export const Features = () => (
             <IconComponent type={feature.icon} color={feature.color} />
           </div>
           <h2
-            className="mb-2 sm:mb-3 text-xl sm:text-2xl font-semibold"
+            className="mb-3 sm:mb-4 text-2xl sm:text-2xl font-bold"
             style={{ color: feature.color }}
           >
             {feature.title}
           </h2>
-          <p className="m-0 max-w-[30ch] text-sm text-[#a89984] text-center leading-relaxed">
+          <p className="m-0 max-w-[30ch] text-base text-[#d5c4a1] text-center leading-relaxed">
             {feature.description}
           </p>
         </div>
