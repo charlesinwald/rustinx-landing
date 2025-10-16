@@ -1,6 +1,7 @@
 import { Hero } from "./components/Hero";
 import { Header } from "./components/Header";
 import { Features } from "./components/Features";
+import { DetailedFeatures } from "./components/DetailedFeatures";
 
 export default function Home() {
   return (
@@ -11,8 +12,12 @@ export default function Home() {
         <Hero />
       </section>
 
-      <section id="features" className="w-full flex justify-center items-center">
+      <section id="features" className="w-full flex justify-center items-center mb-16">
         {Features()}
+      </section>
+
+      <section id="detailed-features" className="w-full mb-16">
+        <DetailedFeatures />
       </section>
 
       <section id="demo" className="w-full">
