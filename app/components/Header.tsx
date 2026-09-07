@@ -1,5 +1,5 @@
 export const Header = (
-  <div className="z-10 w-full max-w-5xl items-center justify-between font-mono lg:flex">
+  <div className="z-[100] w-full max-w-5xl items-center justify-between font-mono lg:flex">
     <div className="fixed left-0 top-0 flex w-full justify-center border-b border-[#504945] bg-gradient-to-b from-[#3c3836] pb-6 pt-12 sm:pt-16 backdrop-blur-2xl lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-[#3c3836] lg:p-4">
       <p className="text-3xl sm:text-4xl font-bold tracking-tight text-[#fbf1c7]">
         Rustinx

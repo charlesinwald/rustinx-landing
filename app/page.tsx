@@ -5,7 +5,7 @@ import { DetailedFeatures } from "./components/DetailedFeatures";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between md:p-6 sm:p-12 lg:p-24 bg-[#282828] w-full">
+    <main className="flex min-h-screen flex-col items-center justify-between px-4 py-8 sm:px-8 sm:py-12 lg:p-24 bg-[#282828] w-full max-w-full">
       {Header}
 
       <section id="hero" className="w-full">
@@ -16,7 +16,7 @@ export default function Home() {
         {Features()}
       </section>
 
-      <section id="detailed-features" className="w-full mb-16">
+      <section id="detailed-features" className="w-full sm:mb-16">
         <DetailedFeatures />
       </section>
 

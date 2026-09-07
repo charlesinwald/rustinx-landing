@@ -104,12 +104,12 @@ const detailedFeatures = [
 ];
 
 export const DetailedFeatures = () => (
-  <div className="w-full max-w-7xl mx-auto px-4 py-16">
+  <div className="w-full max-w-7xl mx-auto px-4 sm:py-16">
     <div className="text-center mb-12">
-      <h2 className="text-4xl sm:text-5xl font-bold text-[#fbf1c7] mb-6 leading-tight">
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#fbf1c7] mb-6 leading-tight text-balance">
         Everything you need to manage Nginx
       </h2>
-      <p className="text-xl text-[#d5c4a1] max-w-2xl mx-auto leading-relaxed">
+      <p className="text-lg sm:text-xl text-[#d5c4a1] max-w-2xl mx-auto leading-relaxed text-balance">
         A comprehensive suite of tools designed to simplify Nginx server management
       </p>
     </div>

@@ -71,13 +71,13 @@ const IconComponent = ({ type, color }: { type: string; color: string }) => {
 };
 
 export const Features = () => (
-  <div className="mb-8 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:items-start gap-4">
+  <div className="mb-8 mt-4 grid text-center w-full min-w-0 max-w-5xl lg:mb-0 lg:grid-cols-4 lg:items-start gap-4">
     {features.map((feature) => {
       const isLast = feature === features[features.length - 1];
       return (
         <div
           key={feature.title}
-          className={`${isLast && "mb-16"} group rounded-lg border border-[#3c3836] px-4 sm:px-5 py-6 transition-all duration-300 hover:border-[#504945] hover:bg-[#3c3836] hover:shadow-lg hover:scale-105 flex flex-col items-center h-full`}
+          className={`${isLast && "mb-16"} bg-[#3c3836] backdrop-blur-sm z-50 group rounded-lg border border-[#3c3836] px-4 sm:px-5 py-6 transition-all duration-300 hover:border-[#504945] hover:bg-[#3c3836] hover:shadow-lg hover:scale-105 flex flex-col items-center h-full`}
         >
           <div className="mb-4 transition-transform duration-300 group-hover:scale-110">
             <IconComponent type={feature.icon} color={feature.color} />
