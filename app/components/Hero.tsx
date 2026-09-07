@@ -213,7 +213,7 @@ export const Hero = () => {
         <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between bg-transparent w-full min-w-0 max-w-full">
           <div className="w-full sm:p-0 p-4 px-4 min-w-0 max-w-md text-center lg:text-left lg:flex-auto lg:py-16 lg:pl-8 lg:pr-4 bg-[#3c3836] rounded-xl border-[#504945] bg-gradient-to-b from-[#3c3836] mt-28 sm:mt-24 lg:mt-16 px-2 sm:px-0 backdrop-blur-2xl lg:rounded-xl lg:border lg:bg-[#3c3836] lg:p-4">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-[#fbf1c7] leading-tight text-balance">
-              Simplify managing your Nginx Server
+              Manage Nginx locally or from any browser
             </h2>
             <p className="mt-4 sm:mt-6 text-base sm:text-lg md:text-xl leading-relaxed text-[#d5c4a1] text-balance">
               Download once for Mac or Linux. Run it on your machine, or install
