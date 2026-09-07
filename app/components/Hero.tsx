@@ -216,7 +216,8 @@ export const Hero = () => {
               Simplify managing your Nginx Server
             </h2>
             <p className="mt-4 sm:mt-6 text-base sm:text-lg md:text-xl leading-relaxed text-[#d5c4a1] text-balance">
-              No more fiddling with the command line
+              Download once for Mac or Linux. Run it on your machine, or install
+              it on the server and open that host in a browser.
             </p>
             <div className="mt-6 sm:mt-10 flex flex-col items-center gap-3 sm:gap-4 lg:items-start">
               <div className="flex items-center gap-2">
@@ -230,7 +231,7 @@ export const Hero = () => {
                   className="rounded-md bg-[#fbf1c7] px-4 py-2.5 sm:px-5 sm:py-3 text-base font-bold text-[#282828] shadow-lg hover:bg-[#ebdbb2] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#ebdbb2] transition-colors text-center"
                   target="_blank"
                 >
-                  Download for Mac or Linux
+                  Download
                 </a>
                 <a
                   href="https://github.com/charlesinwald/rustinx-react/"
